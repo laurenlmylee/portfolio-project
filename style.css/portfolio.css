@@ -1,6 +1,12 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
 
+
+root{
+    primary-color: #b7def6; 
+    secondary-color: #6bbaec;
+}
+
 h1{
     font-family:'Playfair Display', serif;
 }
