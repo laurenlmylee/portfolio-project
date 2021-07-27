@@ -25,10 +25,15 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 60px;
 }
 
 .hero {
-  background-color: rgba(183, 222, 246, 0.7);
+  background-color: rgba(183, 222, 246, 0.5);
   text-align: center;
   padding: 160px 20px;
 }
@@ -47,4 +52,48 @@ h1 {
   color: var(--text-color);
 }
 
-/*btn- secondary color; border-radius: 4px; color:white; font-size:18px; line-height: 27px; padding: 15px 30px;*/
+.featured {
+  font-size: 24px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.project-desc {
+  padding: 120px 60px;
+}
+
+.project-para {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.btn-see-more {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-img {
+  padding: 150px 0;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 30px;
+  }
+  .project-desc {
+    padding: 0;
+    text-align: center;
+  }
+}
