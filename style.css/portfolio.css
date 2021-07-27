@@ -78,6 +78,7 @@ h3 {
 
 .project-img {
   padding: 150px 0;
+  max-height: 900px;
 }
 
 .footer {
