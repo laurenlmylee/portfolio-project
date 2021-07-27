@@ -80,6 +80,18 @@ h3 {
   padding: 150px 0;
 }
 
+.footer {
+  font-size: 14px;
+  text-align: center;
+  font-family: var(--default-font-family);
+  background-color: var(--primary-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-alt-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
