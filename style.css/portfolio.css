@@ -36,6 +36,11 @@ h3 {
   max-height: 50px;
 }
 
+.logo:hover {
+  transition: 0.7s;
+  transform: rotate(360deg);
+}
+
 .hero {
   background-color: rgba(183, 222, 246, 0.5);
   text-align: center;
@@ -135,13 +140,35 @@ footer a {
   line-height: 30px;
 }
 
-.about-section-text-left {
-  /*text-align: left;*/
-}
-
 .shecodes-link {
   text-decoration: none;
   color: #662eed;
+}
+
+.projects-section {
+  background-color: rgba(183, 222, 246, 0.5);
+  text-align: center;
+  padding: 0px 20px 160px 20px;
+}
+
+.projects-header {
+}
+
+.future-img {
+  padding: 150px 0px 0px 0px;
+  max-height: 900px;
+}
+
+.img-caption {
+  font-size: 8px;
+}
+
+.section {
+  padding: 120px 60px;
+}
+
+.section:hover {
+  background-color: #b7def6;
 }
 
 @media (max-width: 900px) {
