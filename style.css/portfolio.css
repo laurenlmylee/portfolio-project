@@ -32,6 +32,10 @@ h3 {
   font-size: 60px;
 }
 
+.logo {
+  max-height: 50px;
+}
+
 .hero {
   background-color: rgba(183, 222, 246, 0.5);
   text-align: center;
@@ -120,12 +124,24 @@ footer a {
   padding: 0px 20px 160px 20px;
 }
 
+.about-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.about-para {
+  font-size: 16px;
+  line-height: 30px;
+}
+
 .about-section-text-left {
   /*text-align: left;*/
 }
 
-.about-section-text-right {
-  text-align: left;
+.shecodes-link {
+  text-decoration: none;
+  color: #662eed;
 }
 
 @media (max-width: 900px) {
