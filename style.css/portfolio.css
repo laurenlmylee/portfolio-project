@@ -203,6 +203,7 @@ footer a {
   position: absolute;
   width: 100%;
   text-align: center;
+  padding-top: 20px;
 }
 
 @media (max-width: 900px) {
@@ -220,5 +221,9 @@ footer a {
   .project-desc {
     padding: 0;
     text-align: center;
+  }
+
+  .footer {
+    padding-top: 10px;
   }
 }
