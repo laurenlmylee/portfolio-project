@@ -90,6 +90,26 @@ h3 {
   max-height: 900px;
 }
 
+.work-contact{
+  background-color:#dbeefa;
+  margin: auto;
+  text-align:left;
+  border:1px solid #6bbaec;
+}
+
+.footer-icons{
+  font-size:30px;
+  color:#212529;
+  opacity:75%;
+  word-spacing: 10px;
+}
+
+.footer-icons :hover{
+  color:var(--text-color);
+  transition:0.75s; 
+  transform:rotate(720deg);
+}
+
 .footer {
   font-size: 14px;
   text-align: center;
@@ -97,7 +117,7 @@ h3 {
   background-color: var(--primary-color);
 }
 
-footer a {
+.footer a {
   text-decoration: none;
   color: var(--text-alt-color);
 }
@@ -151,13 +171,12 @@ footer a {
   padding: 0px 20px 160px 20px;
 }
 
-.projects-header {
-}
 
 .future-img {
   padding: 150px 0px 0px 0px;
   max-height: 900px;
 }
+
 
 .img-caption {
   font-size: 8px;
@@ -221,6 +240,10 @@ footer a {
   .project-desc {
     padding: 0;
     text-align: center;
+  }
+
+  .social-icons{
+    font-size:24px;
   }
 
   .footer {
