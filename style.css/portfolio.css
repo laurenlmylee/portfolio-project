@@ -110,6 +110,11 @@ h3 {
 }
 
 
+.work-together{
+  font-size: 40px;
+}
+
+
 
 .footer-icons{
   font-size:30px;
@@ -258,6 +263,10 @@ h3 {
 
   .contact-box{
     padding: 20px;
+  }
+
+  .work-together{
+    font-size:28px;
   }
 
   .social-icons{
