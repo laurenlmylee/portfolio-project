@@ -114,7 +114,9 @@ h3 {
   font-size: 40px;
 }
 
-
+.contact-me{
+  margin-top:15px;
+}
 
 .footer-icons{
   font-size:30px;
@@ -267,6 +269,10 @@ h3 {
 
   .work-together{
     font-size:28px;
+  }
+
+  .contact-me{
+    margin-top:5px;
   }
 
   .social-icons{
